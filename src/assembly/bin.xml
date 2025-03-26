@@ -4,6 +4,7 @@
     <formats>
         <format>dir</format>
     </formats>
+    <id>bin</id>
     <includeBaseDirectory>false</includeBaseDirectory>
     <dependencySets>
         <dependencySet>

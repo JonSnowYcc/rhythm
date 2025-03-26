@@ -679,9 +679,9 @@ border-bottom: none;
 <div class="fn-hr5"></div>
 <div class="ft__center">
     <div>
-        <h2>思過崖</h2>
+        <h2>小黑屋</h2>
         <div class="fn-hr5"></div>
-        <span>摸魚派倡導自由、友善的交流環境。<br>這裏收留了因不遵守摸魚法則而受到處罰的魚油。</span>
+        <span>三角洲行动评分社区倡導自由、友善的交流环境。<br>这里收留了因不遵守社区规则而受到处罚的用户。</span>
     </div>
     <div class="list">
     <ul id="si-guo-list">
@@ -696,7 +696,7 @@ border-bottom: none;
             success: function (result) {
                 let list = result.data;
                 if (list.length == 0) {
-                    $("#si-guo-list").prepend('<li style="color: #3caf36; font-weight: bold;">目前沒有受到處罰的魚油，請繼續保持！</li>');
+                    $("#si-guo-list").prepend('<li style="color: #3caf36; font-weight: bold;">目前沒有受到惩罚的用户，請继续保持！</li>');
                 }
                 for (let i = 0; i < list.length; i++) {
                     let j = list[i];

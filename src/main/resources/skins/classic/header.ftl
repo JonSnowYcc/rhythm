@@ -60,11 +60,6 @@
             <svg>
                 <use xlink:href="#chat"></use>
             </svg> ${chatRoomLabel}</a>
-        <a pjax-title="${breezemoonLabel} - ${symphonyLabel}"
-           href="${servePath}/breezemoons"<#if selected?? && 'breezemoons' == selected> class="current"</#if>>
-            <svg>
-                <use xlink:href="#breezemoons"></use>
-            </svg> ${breezemoonLabel}</a>
         <a pjax-title="${qnaLabel} - ${symphonyLabel}"
            href="${servePath}/qna"<#if selected?? && 'qna' == selected> class="current"</#if>>
             <svg>
@@ -155,13 +150,7 @@
                         <a href="${servePath}/settings">${settingsLabel}</a>
                     </li>
                     <li>
-                        <a href="${servePath}/oldAlmanac">摸鱼日历</a>
-                    </li>
-                    <li>
                         <a href="${servePath}/charge/point"><span class="ft-red">❤</span>️ ${chargePointLabel}</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" onclick="Count.settings()">⏰ 下班倒计时</a>
                     </li>
                     <li>
                         <a href="${servePath}/settings/help">${helpLabel}</a>

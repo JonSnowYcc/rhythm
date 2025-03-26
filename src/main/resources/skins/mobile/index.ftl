@@ -160,7 +160,7 @@
 </#if>
 
 <div class="slogan">
-    摸鱼派 - 鱼油专属摸鱼社区&nbsp;
+    三角洲行动 - 评分社区
     <a href="https://github.com/FishPiOffical/rhythm" target="_blank">
         <svg>
             <use xlink:href="#github"></use>
