@@ -21,7 +21,7 @@
 <div class="footer">
     <div class="wrapper">
         <div class="slogan">
-            三角洲行动评分社区
+            三角洲行动社区 - 鼠鼠营地
         </div>
         <div class="fn-flex-1">
             <div class="footer-nav fn-clear" style="margin-top: 15px; margin-bottom: 15px">

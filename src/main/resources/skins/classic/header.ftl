@@ -23,25 +23,7 @@
 <div class="nav">
     <h1 aria-label="${symphonyLabel}" class="tooltipped tooltipped-s">
         <a href="${servePath}">
-            <div style="height: 55px;width: 55px;padding-bottom: 6px;" id="logo-animate"></div>
-            <script>
-                var params = {
-                    container: document.getElementById('logo-animate'),
-                    renderer: 'svg',
-                    loop: false,
-                    autoplay: false,
-                    animationData: logoData
-                };
-
-                var anim;
-                anim = lottie.loadAnimation(params);
-                anim.goToAndPlay(27, true)
-                setTimeout(function () {
-                    $('#logo-animate').on('mouseenter', function(){
-                        anim.goToAndPlay(10, true)
-                    });
-                }, 1000);
-            </script>
+            <img src="${staticServePath}/images/logo.png" style="height: 55px;width: 55px;padding-bottom: 6px;" alt="${symphonyLabel}"/>
         </a>
     </h1>
     <div class="nav-tabs">

@@ -681,7 +681,7 @@ border-bottom: none;
     <div>
         <h2>小黑屋</h2>
         <div class="fn-hr5"></div>
-        <span>三角洲行动评分社区倡導自由、友善的交流环境。<br>这里收留了因不遵守社区规则而受到处罚的用户。</span>
+        <span>鼠鼠营地倡導自由、友善的交流环境。<br>这里收留了因不遵守社区规则而受到处罚的用户。</span>
     </div>
     <div class="list">
     <ul id="si-guo-list">
