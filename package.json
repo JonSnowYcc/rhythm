@@ -1,32 +1,27 @@
 {
   "name": "symphony",
   "version": "3.6.3",
-  "description": "A modern community (forum/BBS/SNS/blog) platform written in Java. 一款用 Java 实现的现代化社区（论坛/BBS/社交网络/博客）系统平台。",
-  "homepage": "https://b3log.org/sym",
+  "description": "三角洲行动-鼠鼠营地",
+  "homepage": "XXX",
   "repository": {
     "type": "git",
-    "url": "git://github.com/88250/symphony.git"
+    "url": "XXX"
   },
   "bugs": {
-    "url": "https://github.com/88250/symphony/issues"
+    "url": "XXX"
   },
   "license": "AGPLv3",
   "private": true,
   "author": {
-    "name": "B3log 开源社区",
-    "email": "os@b3log.org",
-    "url": "https://b3log.org"
+    "name": "三角洲行动-鼠鼠营地",
+    "email": "2549168182@qq.com",
+    "url": "XXX"
   },
   "maintainers": [
     {
-      "name": "Liang Ding",
-      "email": "845765@qq.com",
-      "url": "http://88250.b3log.org"
-    },
-    {
-      "name": "Liyuan Li",
-      "email": "84588990@qq.com",
-      "url": "http://vanessa.b3log.org"
+      "name": "Jon$now",
+      "email": "2549168182@qq.com",
+      "url": "XXX"
     }
   ],
   "scripts": {

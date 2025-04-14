@@ -147,7 +147,7 @@
                                value="${article.articleRewardPoint?c}"/>
                     </label>
                     <label class="mid">
-                        <div>${perfectLabel}</div>
+                        <div>${perfectLabel}测试测试优选九年</div>
                         <select id="articlePerfect" name="articlePerfect">
                             <option value="0"<#if 0 == article.articlePerfect> selected</#if>>${noLabel}</option>
                             <option value="1"<#if 1 == article.articlePerfect> selected</#if>>${yesLabel}</option>

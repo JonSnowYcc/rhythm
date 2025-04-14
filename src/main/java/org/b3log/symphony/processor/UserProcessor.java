@@ -277,7 +277,7 @@ public class UserProcessor {
         }
     }
     /**
-     * 获取用户清风明月列表
+     * 获取用户网站弹幕列表
      *
      * @param context
      */

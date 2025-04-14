@@ -205,7 +205,7 @@ public class IndexProcessor {
     }
 
     /**
-     * 清风明月大列表
+     * 网站弹幕大列表
      */
     public void showBreezemoons(final RequestContext context) {
         final Request request = context.getRequest();

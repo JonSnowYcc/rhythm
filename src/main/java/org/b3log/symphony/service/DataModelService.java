@@ -535,7 +535,7 @@ public class DataModelService {
                 if (Objects.isNull(currentUser)) {
                     dataModel.put("hasSystemTitle", false);
                     dataModel.put("cardBg", "");
-                    dataModel.put("iconURL", "https://fishpi.cn/images/favicon.png?" + staticResourceVersion);
+                    dataModel.put("iconURL", Latkes.getStaticServePath() + "/images/favicon.png");
                     dataModel.put(SystemSettings.ONLINE_TIME_UNIT, "m");
                     dataModel.put("showSideAd", true);
                     dataModel.put("showTopAd", true);
@@ -544,7 +544,7 @@ public class DataModelService {
                     if (Objects.isNull(systemSettings)) {
                         dataModel.put("hasSystemTitle", false);
                         dataModel.put("cardBg", "");
-                        dataModel.put("iconURL", "https://fishpi.cn/images/favicon.png?" + staticResourceVersion);
+                        dataModel.put("iconURL", Latkes.getStaticServePath() + "/images/favicon.png");
                         dataModel.put(SystemSettings.ONLINE_TIME_UNIT, "m");
                         dataModel.put("showSideAd", true);
                         dataModel.put("showTopAd", true);
@@ -578,7 +578,7 @@ public class DataModelService {
                     }
                     final String iconURL = settings.optString("iconURL");
                     if (StringUtils.isBlank(iconURL)) {
-                        dataModel.put("iconURL", "https://fishpi.cn/images/favicon.png?" + staticResourceVersion);
+                        dataModel.put("iconURL", Latkes.getStaticServePath() + "/images/favicon.png");
                     } else {
                         dataModel.put("iconURL", iconURL);
                     }
@@ -592,7 +592,7 @@ public class DataModelService {
             } else {
                 dataModel.put("hasSystemTitle", false);
                 dataModel.put("cardBg", "");
-                dataModel.put("iconURL", "https://fishpi.cn/images/favicon.png?" + staticResourceVersion);
+                dataModel.put("iconURL", Latkes.getStaticServePath() + "/images/favicon.png");
                 dataModel.put("showSideAd", true);
                 dataModel.put("showTopAd", true);
             }

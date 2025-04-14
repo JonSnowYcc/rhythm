@@ -35,13 +35,18 @@
         <a pjax-title="${hotLabel} - ${symphonyLabel}"
            href="${servePath}/hot"<#if selected?? && 'hot' == selected> class="current"</#if>>
             <svg>
-                <use xlink:href="#fire"></use>
+                <use xlink:href="#fire"></use>*
             </svg> ${hotLabel}</a>
         <a pjax-title="${chatRoomLabel} - ${symphonyLabel}"
            href="${servePath}/cr"<#if selected?? && 'cr' == selected> class="current"</#if>>
             <svg>
                 <use xlink:href="#chat"></use>
             </svg> ${chatRoomLabel}</a>
+        <a pjax-title="${breezemoonLabel} - ${symphonyLabel}"
+           href="${servePath}/breezemoons"<#if selected?? && 'breezemoons' == selected> class="current"</#if>>
+            <svg>
+                <use xlink:href="#breezemoons"></use>
+            </svg> ${breezemoonLabel}</a>
         <a pjax-title="${qnaLabel} - ${symphonyLabel}"
            href="${servePath}/qna"<#if selected?? && 'qna' == selected> class="current"</#if>>
             <svg>

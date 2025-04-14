@@ -136,7 +136,7 @@
 </div>
 
 <ul class="menu">
-    <li class="menu__item"><a class="title" href="${servePath}/breezemoons">🌕 清风明月</a></li>
+    <li class="menu__item"><a class="title" href="${servePath}/breezemoons">🌕 网站弹幕</a></li>
     <li class="menu__item"><a class="title" href="${servePath}/cr">💬 聊天室</a></li>
     <li class="menu__item"><a class="title" href="${servePath}/charge/point"><span
                     class="ft-red">❤</span>️ ${chargePointLabel}</a></li>

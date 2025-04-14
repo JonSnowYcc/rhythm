@@ -67,7 +67,7 @@
                     backgroundColor: 0xffffff,
                     parent: 'catch-the-cat',
                     statusBarAlign: 'center',
-                    credit: '摸鱼派-鱼游'
+                    credit: '鼠鼠小游戏'
             });
             </script>
             </div>

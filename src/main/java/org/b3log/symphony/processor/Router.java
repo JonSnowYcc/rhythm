@@ -80,7 +80,7 @@ public final class Router {
         ActivityProcessor.register();
         // 帖子
         ArticleProcessor.register();
-        // 清风明月
+        // 网站弹幕
         BreezemoonProcessor.register();
         // 验证码
         CaptchaProcessor.register();

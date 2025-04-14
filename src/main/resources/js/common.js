@@ -1346,7 +1346,7 @@ var Util = {
         // });
     },
     /**
-     * 初始化清风明月
+     * 初始化网站弹幕
      * @private
      */
     _initBreezemoon: function ($btn, $text, isLoggedIn) {

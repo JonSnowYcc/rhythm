@@ -166,7 +166,7 @@
     },
     {
       "name": "breezemoon",
-      "description": "清风明月表",
+      "description": "网站弹幕表",
       "keys": [
         {
           "name": "oId",
@@ -178,7 +178,7 @@
           "name": "breezemoonContent",
           "type": "String",
           "length": 102400,
-          "description": "清风明月正文"
+          "description": "网站弹幕正文"
         },
         {
           "name": "breezemoonAuthorId",
@@ -1544,7 +1544,7 @@
         {
           "name": "userBreezemoonStatus",
           "type": "int",
-          "description": "0：公开清风明月列表，1：不公开清风明月列表"
+          "description": "0：公开网站弹幕列表，1：不公开网站弹幕列表"
         },
         {
           "name": "chatRoomPictureStatus",

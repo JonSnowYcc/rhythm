@@ -118,7 +118,7 @@ public class FeedProcessor {
             channel.setLastBuildDate(new Date());
             channel.setLink(Latkes.getServePath());
             channel.setAtomLink(Latkes.getServePath() + "/rss/recent.xml");
-            channel.setGenerator("Symphony v" + Server.VERSION + ", https://b3log.org/sym");
+            channel.setGenerator("三角洲行动-鼠鼠营地");
             final String localeString = optionQueryService.getOption("miscLanguage").optString(Option.OPTION_VALUE);
             final String country = Locales.getCountry(localeString).toLowerCase();
             final String language = Locales.getLanguage(localeString).toLowerCase();
@@ -161,7 +161,7 @@ public class FeedProcessor {
             channel.setLastBuildDate(new Date());
             channel.setLink(Latkes.getServePath());
             channel.setAtomLink(Latkes.getServePath() + "/rss/" + domainURI + ".xml");
-            channel.setGenerator("Symphony v" + Server.VERSION + ", https://b3log.org/sym");
+            channel.setGenerator("三角洲行动-鼠鼠营地");
             final String localeString = optionQueryService.getOption("miscLanguage").optString(Option.OPTION_VALUE);
             final String country = Locales.getCountry(localeString).toLowerCase();
             final String language = Locales.getLanguage(localeString).toLowerCase();

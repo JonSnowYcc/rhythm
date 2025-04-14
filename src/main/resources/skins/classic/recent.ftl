@@ -49,17 +49,14 @@
                     </#if>
                     <div class="module">
                         <div class="module-header fn-clear">
-                            <span class="fn-right ft-fade">
-                                <a pjax-title="${latestLabel} - ${symphonyLabel}" class="<#if "" == current>ft-gray</#if>" href="${servePath}/recent">${defaultLabel}</a>
-                                /
-                                <a pjax-title="${latestLabel} - ${symphonyLabel}"  class="<#if "/hot" == current>ft-gray</#if>" href="${servePath}/recent/hot">${hotArticlesLabel}</a>
-                                /
-                                <a pjax-title="${goodCmtsLabel} - ${symphonyLabel}"  class="<#if "/good" == current>ft-gray</#if>" href="${servePath}/recent/good"><svg class="fn-text-top"><use xlink:href="#thumbs-up"></use></svg> ${goodCmtsLabel}</a>
-                                /
-                                <a pjax-title="${recentCommentLabel} - ${symphonyLabel}"  class="<#if "/reply" == current>ft-gray</#if>" href="${servePath}/recent/reply">${recentCommentLabel}</a>
-                            <a class="recent-rss" href="${servePath}/rss/recent.xml">
-                              <svg><use xlink:href="#iconRss"></use></svg>
-                            </a>
+                            <span class="fn-left ft-fade">
+                                <a style="text-decoration: none;" pjax-title="${latestLabel} - ${symphonyLabel}" class="<#if "" != current>ft-gray</#if>" href="${servePath}/recent">${defaultLabel}</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a style="text-decoration: none;" pjax-title="${latestLabel} - ${symphonyLabel}"  class="<#if "/hot" != current>ft-gray</#if>" href="${servePath}/recent/hot">${hotArticlesLabel}</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a style="text-decoration: none;" pjax-title="${goodCmtsLabel} - ${symphonyLabel}"  class="<#if "/good" != current>ft-gray</#if>" href="${servePath}/recent/good"><svg class="fn-text-top"><use xlink:href="#thumbs-up"></use></svg> ${goodCmtsLabel}</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a style="text-decoration: none;" pjax-title="${recentCommentLabel} - ${symphonyLabel}"  class="<#if "/reply" != current>ft-gray</#if>" href="${servePath}/recent/reply">${recentCommentLabel}</a>
                             </span>
                         </div>
                         <@list listData=latestArticles/>

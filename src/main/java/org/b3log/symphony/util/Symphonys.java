@@ -163,7 +163,7 @@ public final class Symphonys {
     public static final int SIDE_HOT_ARTICLES_CNT = getInt("sideHotArticlesCnt");
 
     /**
-     * 首页、侧栏清风明月显示数.
+     * 首页、侧栏网站弹幕显示数.
      */
     public static final int SIDE_BREEZEMOON_CNT = getInt("sideBreezemoonsCnt");
 

@@ -121,7 +121,7 @@ public class BreezemoonProcessor {
     }
 
     /**
-     * 清风明月API
+     * 网站弹幕API
      * @param context
      */
     public void getBreezemoons(final RequestContext context) {
@@ -214,7 +214,7 @@ public class BreezemoonProcessor {
         }
         final String authorId = user.optString(Keys.OBJECT_ID);
         if (!addBreezemoonLimiter.access(authorId)) {
-            context.renderJSON(StatusCodes.ERR).renderMsg("每小时只允许发送5个清风明月，稍安勿躁...");
+            context.renderJSON(StatusCodes.ERR).renderMsg("每小时只允许发送5个网站弹幕，稍安勿躁...");
             return;
         }
         final String userPhone = user.optString("userPhone");
